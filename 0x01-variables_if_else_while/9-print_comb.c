@@ -20,8 +20,10 @@ int main(void)
 		s = 32;
 
 		if (i != 57)
+		{
 			putchar(n);
 			putchar(s);
+		}
 	}
 	putchar('\n');
 	return (0);
